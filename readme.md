@@ -35,7 +35,7 @@ Experience the app live by opening `index.html` in your web browser. Enjoy the s
 ---
 
 ## Screenshots  
-![Quote Generator Screenshot](screenshot.png)  
+![Quote Generator Screenshot](Screenshot.png)  
 
 ---
 
