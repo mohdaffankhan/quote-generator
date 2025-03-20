@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  /* A subtle yet elegant body background gradient */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #016d9b, #7e8c65);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+  }
+  .container {
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+    padding: 30px 20px;
+  }
+  #quote-box {
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Default gradient */
+    padding: 30px 20px;
+    border-radius: 10px;
+    transition: background 0.5s ease-in-out;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  #quote-box h1 {
+    margin: 0 0 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  #quote-box p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  /* Enhanced styling for author text */
+  #author {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  button {
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  button:hover {
+    background: #e0e0e0;
+    transform: translateY(-2px);
+  }
+  button:active {
+    transform: translateY(0);
+  }
+  @media (max-width: 480px) {
+    #quote-box h1 {
+      font-size: 1.5rem;
+    }
+    #quote-box p {
+      font-size: 1rem;
+    }
+    button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }

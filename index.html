@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quote Generator</title>
+  <!-- Google Font for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+  <!-- html2canvas for export functionality -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="quote-box">
+      <h1>Quote of the Day</h1>
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+    <div class="buttons">
+      <button id="new-quote">New Quote</button>
+      <button id="copy">Copy</button>
+      <button id="shareOnX">Tweet</button>
+      <button id="export">Export</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
